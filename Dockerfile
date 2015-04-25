@@ -17,4 +17,6 @@ RUN curl https://install.meteor.com/ | sh
 VOLUME /app
 WORKDIR /app
 
+ADD . /app
+
 EXPOSE 3000
