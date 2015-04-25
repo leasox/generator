@@ -1,0 +1,55 @@
+// Foundation for Apps
+// by Zurb
+// foundation.zurb.com
+// Licensed under MIT Open Source
+
+$foundation-version: '1.1.0';
+
+// Make sure the charset is set appropriately
+@charset 'UTF-8';
+
+// Change Foundation for Apps settings here
+@import 'public/scss/settings';
+
+// Libraries
+@import
+  'public/bower/foundation-apps/scss/vendor/normalize';
+
+// Helpers
+@import
+  'public/bower/foundation-apps/scss/helpers/functions',
+  'public/bower/foundation-apps/scss/helpers/mixins',
+  'public/bower/foundation-apps/scss/helpers/breakpoints',
+  'public/bower/foundation-apps/scss/helpers/images';
+
+// Global styles
+@import
+  'public/bower/foundation-apps/scss/global';
+
+// Components
+// REMOVE what you don't use to keep
+// the CSS as small as possible
+@import
+  'public/bower/foundation-apps/scss/components/iconic',
+  'public/bower/foundation-apps/scss/components/action-sheet',
+  'public/bower/foundation-apps/scss/components/block-list',
+  'public/bower/foundation-apps/scss/components/button',
+  'public/bower/foundation-apps/scss/components/button-group',
+  'public/bower/foundation-apps/scss/components/card',
+  'public/bower/foundation-apps/scss/components/extras',
+  'public/bower/foundation-apps/scss/components/forms',
+  'public/bower/foundation-apps/scss/components/grid',
+  'public/bower/foundation-apps/scss/components/title-bar',
+  'public/bower/foundation-apps/scss/components/label',
+  'public/bower/foundation-apps/scss/components/list',
+  'public/bower/foundation-apps/scss/components/menu-bar',
+  'public/bower/foundation-apps/scss/components/modal',
+  'public/bower/foundation-apps/scss/components/motion',
+  'public/bower/foundation-apps/scss/components/notification',
+  'public/bower/foundation-apps/scss/components/off-canvas',
+  'public/bower/foundation-apps/scss/components/popup',
+  'public/bower/foundation-apps/scss/components/switch',
+  'public/bower/foundation-apps/scss/components/tabs',
+  'public/bower/foundation-apps/scss/components/accordion',
+  'public/bower/foundation-apps/scss/components/typography',
+  'public/bower/foundation-apps/scss/components/utilities';

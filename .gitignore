@@ -1,0 +1,32 @@
+### WebStorm ###
+.idea/
+.DS_STORE
+
+### Node ###
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.sublime-project
+*.sublime-workspace
+
+dump
+pids
+logs
+results
+
+
+npm-debug.log
+node_modules
+public/bower
+
+## Private Scripts ##
+.bin
+.npm
+.git
+.build*
+packages/
